@@ -1,0 +1,47 @@
+STARTSKILL SKILL_KICK_TP1_LEFT_LEG
+
+#state 1
+STARTSTATE
+settar EFF_LA1 $kick_tp1_s1  EFF_LA2  $kick_tp1_s2  EFF_LA3  -67 EFF_LA4 -52  EFF_LL1  0  EFF_LL2  0  EFF_LL3 $kick_tp1_s3 EFF_LL4 $kick_tp1_s4 EFF_LL5 $kick_tp1_s5 EFF_LL6 $kick_tp1_s6 end
+settar EFF_RL1 0 EFF_RL2 0 EFF_RL3 $kick_tp1_s7 EFF_RL4 $kick_tp1_s8 EFF_RL5 $kick_tp1_s9 EFF_RL6 $kick_tp1_s10 EFF_RA1 $kick_tp1_s11  EFF_RA2 $kick_tp1_s12 EFF_RA3 67 EFF_RA4 52 end
+wait $kick_tp1_m1 end
+ENDSTATE
+
+#state 2
+STARTSTATE
+settar EFF_LA1 $kick_tp1_ss1  EFF_LA2  $kick_tp1_ss2  EFF_LA3  -67 EFF_LA4 -52  EFF_LL1  0  EFF_LL2  10  EFF_LL3 $kick_tp1_ss3 EFF_LL4 $kick_tp1_ss4 EFF_LL5 $kick_tp1_ss5 EFF_LL6 $kick_tp1_ss6 end
+settar EFF_RL1 0 EFF_RL2 10 EFF_RL3 $kick_tp1_ss7 EFF_RL4 $kick_tp1_ss8 EFF_RL5 $kick_tp1_ss9 EFF_RL6 $kick_tp1_ss10 EFF_RA1 $kick_tp1_ss11  EFF_RA2 $kick_tp1_ss12 EFF_RA3 67 EFF_RA4 52 end
+wait $kick_tp1_m2 end
+ENDSTATE
+
+#state 3
+STARTSTATE
+settar EFF_LA1 $kick_tp1_sss1  EFF_LA2  $kick_tp1_sss2  EFF_LA3  -67 EFF_LA4 -52  EFF_LL1  0  EFF_LL2  10  EFF_LL3 $kick_tp1_sss3 EFF_LL4 $kick_tp1_sss4 EFF_LL5 $kick_tp1_sss5 EFF_LL6 $kick_tp1_sss6 end
+settar EFF_RL1 0 EFF_RL2 10 EFF_RL3 $kick_tp1_sss7 EFF_RL4 $kick_tp1_sss8 EFF_RL5 $kick_tp1_sss9 EFF_RL6 $kick_tp1_sss10 EFF_RA1 $kick_tp1_sss11  EFF_RA2 $kick_tp1_sss12 EFF_RA3 67 EFF_RA4 52 end
+wait $kick_tp1_m3 end
+ENDSTATE
+
+#state 4
+STARTSTATE
+settar EFF_LA1   $kick_tp1_t1   EFF_LA2  $kick_tp1_t2  EFF_LA3  -67 EFF_LA4 -52  EFF_LL1  0  EFF_LL2 0 EFF_LL3 $kick_tp1_t3 EFF_LL4 $kick_tp1_t4 EFF_LL5 $kick_tp1_t5 EFF_LL6 $kick_tp1_t6 end
+settar EFF_RL1 -15 EFF_RL2 10  EFF_RL3 $kick_tp1_t7  EFF_RL4 $kick_tp1_t8 EFF_RL5 $kick_tp1_t9 EFF_RL6 $kick_tp1_t10 EFF_RA1 $kick_tp1_t11 EFF_RA2 $kick_tp1_t12 EFF_RA3 67 EFF_RA4 52 end
+wait $kick_tp1_m4  end
+ENDSTATE
+
+#state 5
+STARTSTATE
+settar EFF_LA1   $kick_tp1_tt1   EFF_LA2  $kick_tp1_tt2  EFF_LA3  -67 EFF_LA4  -52  EFF_LL1  0  EFF_LL2 0 EFF_LL3 $kick_tp1_tt3 EFF_LL4 $kick_tp1_tt4 EFF_LL5 $kick_tp1_tt5 EFF_LL6 $kick_tp1_tt6 end
+settar EFF_RL1 0 EFF_RL2 10  EFF_RL3 $kick_tp1_tt7  EFF_RL4 $kick_tp1_tt8 EFF_RL5 $kick_tp1_tt9 EFF_RL6 $kick_tp1_tt10 EFF_RA1 $kick_tp1_tt11 EFF_RA2  $kick_tp1_tt12 EFF_RA3 67 EFF_RA4 52 end
+wait $kick_tp1_m5 end
+ENDSTATE
+
+#state 6
+STARTSTATE
+settar EFF_LA1 $kick_tp1_ttt1  EFF_LA2  $kick_tp1_ttt2   EFF_LA3  -67 EFF_LA4 -52  EFF_LL1  0  EFF_LL2 0 EFF_LL3 $kick_tp1_ttt3  EFF_LL4 $kick_tp1_ttt4  EFF_LL5 $kick_tp1_ttt5  EFF_LL6 $kick_tp1_ttt6  end
+settar EFF_RL1 0 EFF_RL2 10  EFF_RL3 $kick_tp1_ttt7   EFF_RL4 $kick_tp1_ttt8  EFF_RL5 $kick_tp1_ttt9  EFF_RL6 $kick_tp1_ttt10  EFF_RA1 $kick_tp1_ttt11  EFF_RA2  $kick_tp1_ttt12  EFF_RA3 67 EFF_RA4 52 end
+wait $kick_tp1_m6 end
+ENDSTATE
+
+ENDSKILL 
+
+REFLECTSKILL SKILL_KICK_TP1_LEFT_LEG SKILL_KICK_TP1_RIGHT_LEG

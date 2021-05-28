@@ -1,0 +1,51 @@
+# Time is in seconds.
+# Angles are in degrees.
+
+STARTSKILL SKILL_SHOOT_LEFT_LEG
+
+#state 1
+STARTSTATE
+settar EFF_LA1   $shoot_s1   EFF_LA2  $shoot_s2  EFF_LA3  $shoot_s3 EFF_LA4 $shoot_s4  EFF_LL1  $shoot_s5  EFF_LL2 $shoot_s6 EFF_LL3 $shoot_s7 EFF_LL4 $shoot_s8 EFF_LL5 $shoot_s9 EFF_LL6 $shoot_s10 end
+settar EFF_RL1  $shoot_s11 EFF_RL2 $shoot_s12  EFF_RL3 $shoot_s13  EFF_RL4 $shoot_s14 EFF_RL5 $shoot_s15 EFF_RL6 $shoot_s16 EFF_RA1 $shoot_s17 EFF_RA2 $shoot_s18 EFF_RA3 $shoot_s19 EFF_RA4 $shoot_s20 end
+wait $shoot_m1 end
+ENDSTATE
+
+#state 2
+STARTSTATE
+settar EFF_LA1   $shoot_ss1   EFF_LA2  $shoot_ss2  EFF_LA3  $shoot_ss3 EFF_LA4 $shoot_ss4  EFF_LL1  $shoot_ss5  EFF_LL2 $shoot_ss6 EFF_LL3 $shoot_ss7 EFF_LL4 $shoot_ss8 EFF_LL5 $shoot_ss9 EFF_LL6 $shoot_ss10 end
+settar EFF_RL1  $shoot_ss11 EFF_RL2 $shoot_ss12  EFF_RL3 $shoot_ss13  EFF_RL4 $shoot_ss14 EFF_RL5 $shoot_ss15 EFF_RL6 $shoot_ss16 EFF_RA1 $shoot_ss17 EFF_RA2 $shoot_ss18 EFF_RA3 $shoot_ss19 EFF_RA4 $shoot_ss20 end
+wait $shoot_m2 end
+ENDSTATE
+
+#state 3
+STARTSTATE
+settar EFF_LA1   $shoot_sss1   EFF_LA2  $shoot_sss2  EFF_LA3  $shoot_sss3 EFF_LA4 $shoot_sss4  EFF_LL1  $shoot_sss5  EFF_LL2 $shoot_sss6 EFF_LL3 $shoot_sss7 EFF_LL4 $shoot_sss8 EFF_LL5 $shoot_sss9 EFF_LL6 $shoot_sss10 end
+settar EFF_RL1  $shoot_sss11 EFF_RL2 $shoot_sss12  EFF_RL3 $shoot_sss13  EFF_RL4 $shoot_sss14 EFF_RL5 $shoot_sss15 EFF_RL6 $shoot_sss16 EFF_RA1 $shoot_sss17 EFF_RA2 $shoot_sss18 EFF_RA3 $shoot_sss19 EFF_RA4 $shoot_sss20 end
+wait $shoot_m3 end
+ENDSTATE
+
+#state 4
+STARTSTATE
+settar EFF_LA1   $shoot_t1   EFF_LA2  $shoot_t2  EFF_LA3  $shoot_t3 EFF_LA4 $shoot_t4  EFF_LL1  $shoot_t5  EFF_LL2 $shoot_t6 EFF_LL3 $shoot_t7 EFF_LL4 $shoot_t8 EFF_LL5 $shoot_t9 EFF_LL6 $shoot_t10 end
+settar EFF_RL1  $shoot_t11 EFF_RL2 $shoot_t12  EFF_RL3 $shoot_t13  EFF_RL4 $shoot_t14 EFF_RL5 $shoot_t15 EFF_RL6 $shoot_t16 EFF_RA1 $shoot_t17 EFF_RA2 $shoot_t18 EFF_RA3 $shoot_t19 EFF_RA4 $shoot_t20 end
+wait $shoot_m4  end
+ENDSTATE
+
+#state 5
+STARTSTATE
+settar EFF_LA1   $shoot_tt1   EFF_LA2  $shoot_tt2  EFF_LA3  $shoot_tt3 EFF_LA4 $shoot_tt4  EFF_LL1  $shoot_tt5  EFF_LL2 $shoot_tt6 EFF_LL3 $shoot_tt7 EFF_LL4 $shoot_tt8 EFF_LL5 $shoot_tt9 EFF_LL6 $shoot_tt10 end
+settar EFF_RL1  $shoot_tt11 EFF_RL2 $shoot_tt12  EFF_RL3 $shoot_tt13  EFF_RL4 $shoot_tt14 EFF_RL5 $shoot_tt15 EFF_RL6 $shoot_tt16 EFF_RA1 $shoot_tt17 EFF_RA2 $shoot_tt18 EFF_RA3 $shoot_tt19 EFF_RA4 $shoot_tt20 end
+wait $shoot_m5  end
+ENDSTATE
+
+#state 6
+STARTSTATE
+settar EFF_LA1   $shoot_ttt1   EFF_LA2  $shoot_ttt2  EFF_LA3  $shoot_ttt3 EFF_LA4 $shoot_ttt4  EFF_LL1  $shoot_ttt5  EFF_LL2 $shoot_ttt6 EFF_LL3 $shoot_ttt7 EFF_LL4 $shoot_ttt8 EFF_LL5 $shoot_ttt9 EFF_LL6 $shoot_ttt10 end
+settar EFF_RL1  $shoot_ttt11 EFF_RL2 $shoot_ttt12  EFF_RL3 $shoot_ttt13  EFF_RL4 $shoot_ttt14 EFF_RL5 $shoot_ttt15 EFF_RL6 $shoot_ttt16 EFF_RA1 $shoot_ttt17 EFF_RA2 $shoot_ttt18 EFF_RA3 $shoot_ttt19 EFF_RA4 $shoot_ttt20 end
+wait $shoot_m6  end
+ENDSTATE
+
+ENDSKILL 
+
+REFLECTSKILL SKILL_SHOOT_LEFT_LEG SKILL_SHOOT_RIGHT_LEG
+

@@ -1,0 +1,64 @@
+# Time is in seconds.
+# Angles are in degrees.
+
+STARTSKILL SKILL_KICK_SIDE_LEFT_LEG
+
+#state 1
+STARTSTATE
+settar EFF_LA1   $side_s1   EFF_LA2  $side_s2  EFF_LA3  $side_s3 EFF_LA4 $side_s4  EFF_LL1  $side_s5  EFF_LL2 $side_s6 EFF_LL3 $side_s7 EFF_LL4 $side_s8 EFF_LL5 $side_s9 EFF_LL6 $side_s10 end
+settar EFF_RL1  $side_s11 EFF_RL2 $side_s12  EFF_RL3 $side_s13  EFF_RL4 $side_s14 EFF_RL5 $side_s15 EFF_RL6 $side_s16 EFF_RA1 $side_s17 EFF_RA2 $side_s18 EFF_RA3 $side_s19 EFF_RA4 $side_s20 end
+settar EFF_LL7 $side_s21 EFF_RL7 $side_s22 end
+wait $side_m1 end
+ENDSTATE
+
+#state 2
+STARTSTATE
+settar EFF_LA1   $side_ss1   EFF_LA2  $side_ss2  EFF_LA3  $side_ss3 EFF_LA4 $side_ss4  EFF_LL1  $side_ss5  EFF_LL2 $side_ss6 EFF_LL3 $side_ss7 EFF_LL4 $side_ss8 EFF_LL5 $side_ss9 EFF_LL6 $side_ss10 end
+settar EFF_RL1  $side_ss11 EFF_RL2 $side_ss12  EFF_RL3 $side_ss13  EFF_RL4 $side_ss14 EFF_RL5 $side_ss15 EFF_RL6 $side_ss16 EFF_RA1 $side_ss17 EFF_RA2 $side_ss18 EFF_RA3 $side_ss19 EFF_RA4 $side_ss20 end
+settar EFF_LL7 $side_ss21 EFF_RL7 $side_ss22 end
+wait $side_m2 end
+ENDSTATE
+
+#state 3
+STARTSTATE
+settar EFF_LA1   $side_sss1   EFF_LA2  $side_sss2  EFF_LA3  $side_sss3 EFF_LA4 $side_sss4  EFF_LL1  $side_sss5  EFF_LL2 $side_sss6 EFF_LL3 $side_sss7 EFF_LL4 $side_sss8 EFF_LL5 $side_sss9 EFF_LL6 $side_sss10 end
+settar EFF_RL1  $side_sss11 EFF_RL2 $side_sss12  EFF_RL3 $side_sss13  EFF_RL4 $side_sss14 EFF_RL5 $side_sss15 EFF_RL6 $side_sss16 EFF_RA1 $side_sss17 EFF_RA2 $side_sss18 EFF_RA3 $side_sss19 EFF_RA4 $side_sss20 EFF_LL7 $side_sss21 EFF_RL7 $side_sss22 end
+
+wait $side_m3 end
+ENDSTATE
+
+#state 4
+STARTSTATE
+settar EFF_LA1   $side_t1   EFF_LA2  $side_t2  EFF_LA3  $side_t3 EFF_LA4 $side_t4  EFF_LL1  $side_t5  EFF_LL2 $side_t6 EFF_LL3 $side_t7 EFF_LL4 $side_t8 EFF_LL5 $side_t9 EFF_LL6 $side_t10 end
+settar EFF_RL1  $side_t11 EFF_RL2 $side_t12  EFF_RL3 $side_t13  EFF_RL4 $side_t14 EFF_RL5 $side_t15 EFF_RL6 $side_t16 EFF_RA1 $side_t17 EFF_RA2 $side_t18 EFF_RA3 $side_t19 EFF_RA4 $side_t20 end
+settar EFF_LL7 $side_t21 EFF_RL7 $side_t22 end
+wait $side_m4  end
+ENDSTATE
+
+#state 5
+STARTSTATE
+settar EFF_LA1   $side_tt1   EFF_LA2  $side_tt2  EFF_LA3  $side_tt3 EFF_LA4 $side_tt4  EFF_LL1  $side_tt5  EFF_LL2 $side_tt6 EFF_LL3 $side_tt7 EFF_LL4 $side_tt8 EFF_LL5 $side_tt9 EFF_LL6 $side_tt10 end
+settar EFF_RL1  $side_tt11 EFF_RL2 $side_tt12  EFF_RL3 $side_tt13  EFF_RL4 $side_tt14 EFF_RL5 $side_tt15 EFF_RL6 $side_tt16 EFF_RA1 $side_tt17 EFF_RA2 $side_tt18 EFF_RA3 $side_tt19 EFF_RA4 $side_tt20 end
+settar EFF_LL7 $side_tt21 EFF_RL7 $side_tt22 end
+wait $side_m5  end
+ENDSTATE
+
+#state 6
+STARTSTATE
+settar EFF_LA1   $side_ttt1   EFF_LA2  $side_ttt2  EFF_LA3  $side_ttt3 EFF_LA4 $side_ttt4  EFF_LL1  $side_ttt5  EFF_LL2 $side_ttt6 EFF_LL3 $side_ttt7 EFF_LL4 $side_ttt8 EFF_LL5 $side_ttt9 EFF_LL6 $side_ttt10 end
+settar EFF_RL1  $side_ttt11 EFF_RL2 $side_ttt12  EFF_RL3 $side_ttt13  EFF_RL4 $side_ttt14 EFF_RL5 $side_ttt15 EFF_RL6 $side_ttt16 EFF_RA1 $side_ttt17 EFF_RA2 $side_ttt18 EFF_RA3 $side_ttt19 EFF_RA4 $side_ttt20 EFF_LL7 $side_ttt21 EFF_RL7 $side_ttt22 end
+wait $side_m6  end
+ENDSTATE
+
+#state 7
+STARTSTATE
+settar EFF_LA1   $side_a1   EFF_LA2  $side_a2  EFF_LA3  $side_a3 EFF_LA4 $side_a4  EFF_LL1  $side_a5  EFF_LL2 $side_a6 EFF_LL3 $side_a7 EFF_LL4 $side_a8 EFF_LL5 $side_a9 EFF_LL6 $side_a10 end
+settar EFF_RL1  $side_a11 EFF_RL2 $side_a12  EFF_RL3 $side_a13  EFF_RL4 $side_a14 EFF_RL5 $side_a15 EFF_RL6 $side_a16 EFF_RA1 $side_a17 EFF_RA2 $side_a18 EFF_RA3 $side_a19 EFF_RA4 $side_a20 end
+settar EFF_LL7 $side_a21 EFF_RL7 $side_a22 end
+wait $side_m7  end
+ENDSTATE
+
+ENDSKILL 
+
+REFLECTSKILL SKILL_KICK_SIDE_LEFT_LEG SKILL_KICK_SIDE_RIGHT_LEG 
+

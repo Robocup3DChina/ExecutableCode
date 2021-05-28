@@ -1,0 +1,19 @@
+STARTSKILL SKILL_PU_RIGHT
+
+# State 0
+STARTSTATE
+settar EFF_LA1 90 
+end
+settar EFF_RA1 90 
+end
+settar EFF_LL2 15 EFF_LL4 -25.0 EFF_LL5 -10 EFF_LL6 -25 
+end
+settar EFF_RL2 15 EFF_RL4 -25.0 EFF_RL5 15  EFF_RL6 -25 
+end
+#wait 0.2 end
+#wait 0.5 end
+wait 0.04 end
+ENDSTATE
+
+ENDSKILL 
+

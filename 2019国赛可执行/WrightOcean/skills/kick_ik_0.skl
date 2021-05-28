@@ -1,0 +1,53 @@
+# Time is in seconds.
+# Angles are in degrees.
+
+# BALL IN FRONT OF PLAYER. Kicks forward
+# Assumes default position relative to ball around -- x = .2 y = .05
+
+STARTSKILL SKILL_KICK_IK_0_LEFT_LEG
+
+#state 1
+STARTSTATE
+settar EFF_LA1   $kick_ik_s1   EFF_LA2  $kick_ik_s2  EFF_LA3  $kick_ik_s3 EFF_LA4 $kick_ik_s4  EFF_LL1  $kick_ik_s5  EFF_LL2 $kick_ik_s6 EFF_LL3 $kick_ik_s7 EFF_LL4 $kick_ik_s8 EFF_LL5 $kick_ik_s9 EFF_LL6 $kick_ik_s10 end
+settar EFF_RL1  $kick_ik_s11 EFF_RL2 $kick_ik_s12  EFF_RL3 $kick_ik_s13  EFF_RL4 $kick_ik_s14 EFF_RL5 $kick_ik_s15 EFF_RL6 $kick_ik_s16 EFF_RA1 $kick_ik_s17 EFF_RA2 $kick_ik_s18 EFF_RA3 $kick_ik_s19 EFF_RA4 $kick_ik_s20 end
+wait $kick_ik_m1 end
+ENDSTATE
+
+#state 2
+STARTSTATE
+settar EFF_LA1   $kick_ik_ss1   EFF_LA2  $kick_ik_ss2  EFF_LA3  $kick_ik_ss3 EFF_LA4 $kick_ik_ss4  EFF_LL1  $kick_ik_ss5  EFF_LL2 $kick_ik_ss6 EFF_LL3 $kick_ik_ss7 EFF_LL4 $kick_ik_ss8 EFF_LL5 $kick_ik_ss9 EFF_LL6 $kick_ik_ss10 end
+settar EFF_RL1  $kick_ik_ss11 EFF_RL2 $kick_ik_ss12  EFF_RL3 $kick_ik_ss13  EFF_RL4 $kick_ik_ss14 EFF_RL5 $kick_ik_ss15 EFF_RL6 $kick_ik_ss16 EFF_RA1 $kick_ik_ss17 EFF_RA2 $kick_ik_ss18 EFF_RA3 $kick_ik_ss19 EFF_RA4 $kick_ik_ss20 end
+wait $kick_ik_m2 end
+ENDSTATE
+
+#state 3
+STARTSTATE
+settar EFF_LA1   $kick_ik_sss1   EFF_LA2  $kick_ik_sss2  EFF_LA3  $kick_ik_sss3 EFF_LA4 $kick_ik_sss4  EFF_LL1  $kick_ik_sss5  EFF_LL2 $kick_ik_sss6 EFF_LL3 $kick_ik_sss7 EFF_LL4 $kick_ik_sss8 EFF_LL5 $kick_ik_sss9 EFF_LL6 $kick_ik_sss10 end
+settar EFF_RL1  $kick_ik_sss11 EFF_RL2 $kick_ik_sss12  EFF_RL3 $kick_ik_sss13  EFF_RL4 $kick_ik_sss14 EFF_RL5 $kick_ik_sss15 EFF_RL6 $kick_ik_sss16 EFF_RA1 $kick_ik_sss17 EFF_RA2 $kick_ik_sss18 EFF_RA3 $kick_ik_sss19 EFF_RA4 $kick_ik_sss20 end
+wait $kick_ik_m3 end
+ENDSTATE
+
+#state 4
+STARTSTATE
+settar EFF_LA1   $kick_ik_t1   EFF_LA2  $kick_ik_t2  EFF_LA3  $kick_ik_t3 EFF_LA4 $kick_ik_t4  EFF_LL1  $kick_ik_t5  EFF_LL2 $kick_ik_t6 EFF_LL3 $kick_ik_t7 EFF_LL4 $kick_ik_t8 EFF_LL5 $kick_ik_t9 EFF_LL6 $kick_ik_t10 end
+settar EFF_RL1  $kick_ik_t11 EFF_RL2 $kick_ik_t12  EFF_RL3 $kick_ik_t13  EFF_RL4 $kick_ik_t14 EFF_RL5 $kick_ik_t15 EFF_RL6 $kick_ik_t16 EFF_RA1 $kick_ik_t17 EFF_RA2 $kick_ik_t18 EFF_RA3 $kick_ik_t19 EFF_RA4 $kick_ik_t20 end
+wait $kick_ik_m4  end
+ENDSTATE
+
+#state 5
+STARTSTATE
+settar EFF_LA1   $kick_ik_tt1   EFF_LA2  $kick_ik_tt2  EFF_LA3  $kick_ik_tt3 EFF_LA4 $kick_ik_tt4  EFF_LL1  $kick_ik_tt5  EFF_LL2 $kick_ik_tt6 EFF_LL3 $kick_ik_tt7 EFF_LL4 $kick_ik_tt8 EFF_LL5 $kick_ik_tt9 EFF_LL6 $kick_ik_tt10 end
+settar EFF_RL1  $kick_ik_tt11 EFF_RL2 $kick_ik_tt12  EFF_RL3 $kick_ik_tt13  EFF_RL4 $kick_ik_tt14 EFF_RL5 $kick_ik_tt15 EFF_RL6 $kick_ik_tt16 EFF_RA1 $kick_ik_tt17 EFF_RA2 $kick_ik_tt18 EFF_RA3 $kick_ik_tt19 EFF_RA4 $kick_ik_tt20 end
+wait $kick_ik_m5  end
+ENDSTATE
+
+#state 6
+STARTSTATE
+settar EFF_LA1   $kick_ik_ttt1   EFF_LA2  $kick_ik_ttt2  EFF_LA3  $kick_ik_ttt3 EFF_LA4 $kick_ik_ttt4  EFF_LL1  $kick_ik_ttt5  EFF_LL2 $kick_ik_ttt6 EFF_LL3 $kick_ik_ttt7 EFF_LL4 $kick_ik_ttt8 EFF_LL5 $kick_ik_ttt9 EFF_LL6 $kick_ik_ttt10 end
+settar EFF_RL1  $kick_ik_ttt11 EFF_RL2 $kick_ik_ttt12  EFF_RL3 $kick_ik_ttt13  EFF_RL4 $kick_ik_ttt14 EFF_RL5 $kick_ik_ttt15 EFF_RL6 $kick_ik_ttt16 EFF_RA1 $kick_ik_ttt17 EFF_RA2 $kick_ik_ttt18 EFF_RA3 $kick_ik_ttt19 EFF_RA4 $kick_ik_ttt20 end
+wait $kick_ik_m6  end
+ENDSTATE
+
+ENDSKILL 
+
+REFLECTSKILL SKILL_KICK_IK_0_LEFT_LEG SKILL_KICK_IK_0_RIGHT_LEG

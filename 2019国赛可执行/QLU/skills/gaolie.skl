@@ -1,0 +1,18 @@
+# Time is in seconds.
+# Angles are in degrees.
+
+STARTSKILL SKILL_SPLIT
+
+# State 0
+STARTSTATE
+settar EFF_LL1 -80.0 EFF_LL2 45.0 EFF_LL3 60.0 EFF_LL4 -60.0 EFF_LL5 -70.0 EFF_LL6 -40.0 end
+settar EFF_RL1 -80.0 EFF_RL2 -45.0 EFF_RL3 60.0 EFF_RL4 -60.0 EFF_RL5 -70.0 EFF_RL6 -40.0 end
+wait 0.1 end
+ENDSTATE
+
+
+ENDSKILL 
+
+REFLECTSKILL SKILL_SPLIT
+
+

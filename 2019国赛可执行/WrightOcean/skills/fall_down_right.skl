@@ -1,0 +1,18 @@
+# Time is in seconds.
+# Angles are in degrees.
+
+STARTSKILL SKILL_FALL_DOWN_RIGHT_LEG
+
+STARTSTATE
+settar EFF_LA1 $defend_right_a1  EFF_LA2  $defend_right_a2  EFF_LA3  $defend_right_a3  EFF_LA4 $defend_right_a4  EFF_LL1  $defend_right_a5  EFF_LL2  $defend_right_a6  EFF_LL3 $defend_right_a7 EFF_LL4 $defend_right_a8 EFF_LL5 $defend_right_a9 EFF_LL6 $defend_right_a10 end
+settar EFF_RL1 $defend_right_b1 EFF_RL2 $defend_right_b2 EFF_RL3 $defend_right_b3 EFF_RL4 $defend_right_b4 EFF_RL5 $defend_right_b5 EFF_RL6 $defend_right_b6 EFF_RA1 $defend_right_b7  EFF_RA2 $defend_right_b8 EFF_RA3 $defend_right_b9 EFF_RA4 $defend_right_b10 end
+wait 1 end 
+ENDSTATE
+
+ENDSKILL 
+
+REFLECTSKILL SKILL_FALL_DOWN_RIGHT_LEG SKILL_FALL_DOWN_LIFT_LEG
+
+
+
+

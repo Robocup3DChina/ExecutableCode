@@ -1,0 +1,48 @@
+
+STARTSKILL SKILL_KICK_LOW_LEFT_LEG
+
+#ababe 1
+STARTSTATE
+settar EFF_LA1 $kick_ik_a1  EFF_LA2  $kick_ik_a2  EFF_LA3  -67 EFF_LA4 -52  EFF_LL1  0  EFF_LL2  0  EFF_LL3 $kick_ik_a3 EFF_LL4 $kick_ik_a4 EFF_LL5 $kick_ik_a5 EFF_LL6 $kick_ik_a6 end
+settar EFF_RL1 0 EFF_RL2 0 EFF_RL3 $kick_ik_a7 EFF_RL4 $kick_ik_a8 EFF_RL5 $kick_ik_a9 EFF_RL6 $kick_ik_a10 EFF_RA1 $kick_ik_a11  EFF_RA2 $kick_ik_a12 EFF_RA3 67 EFF_RA4 52 end
+wait $kick_low_m1 end
+ENDSTATE
+
+#ababe 2
+STARTSTATE
+settar EFF_LA1 $kick_ik_aa1  EFF_LA2  $kick_ik_aa2  EFF_LA3  -67 EFF_LA4 -52  EFF_LL1  0  EFF_LL2  10  EFF_LL3 $kick_ik_aa3 EFF_LL4 $kick_ik_aa4 EFF_LL5 $kick_ik_aa5 EFF_LL6 $kick_ik_aa6 end
+settar EFF_RL1 0 EFF_RL2 10 EFF_RL3 $kick_ik_aa7 EFF_RL4 $kick_ik_aa8 EFF_RL5 $kick_ik_aa9 EFF_RL6 $kick_ik_aa10 EFF_RA1 $kick_ik_aa11  EFF_RA2 $kick_ik_aa12 EFF_RA3 67 EFF_RA4 52 end
+wait $kick_low_m2 end
+ENDSTATE
+
+#ababe 3
+STARTSTATE
+settar EFF_LA1 $kick_ik_aaa1  EFF_LA2  $kick_ik_aaa2  EFF_LA3  -67 EFF_LA4 -52  EFF_LL1  0  EFF_LL2  10  EFF_LL3 $kick_ik_aaa3 EFF_LL4 $kick_ik_aaa4 EFF_LL5 $kick_ik_aaa5 EFF_LL6 $kick_ik_aaa6 end
+settar EFF_RL1 0 EFF_RL2 10 EFF_RL3 $kick_ik_aaa7 EFF_RL4 $kick_ik_aaa8 EFF_RL5 $kick_ik_aaa9 EFF_RL6 $kick_ik_aaa10 EFF_RA1 $kick_ik_aaa11  EFF_RA2 $kick_ik_aaa12 EFF_RA3 67 EFF_RA4 52 end
+wait $kick_low_m3 end
+ENDSTATE
+
+#ababe 4
+STARTSTATE
+settar EFF_LA1   $kick_ik_b1   EFF_LA2  $kick_ik_b2  EFF_LA3  -24 EFF_LA4 -10  EFF_LL1  0  EFF_LL2 10 EFF_LL3 $kick_ik_b3 EFF_LL4 $kick_ik_b4 EFF_LL5 $kick_ik_b5 EFF_LL6 $kick_ik_b6 end
+settar EFF_RL1 0 EFF_RL2 10  EFF_RL3 $kick_ik_b7  EFF_RL4 $kick_ik_b8 EFF_RL5 $kick_ik_b9 EFF_RL6 $kick_ik_b10 EFF_RA1 $kick_ik_b11 EFF_RA2 $kick_ik_b12 EFF_RA3 24 EFF_RA4 10 end
+wait $kick_low_m4  end
+ENDSTATE
+
+#ababe 5
+STARTSTATE
+settar EFF_LA1   $kick_ik_bb1   EFF_LA2  $kick_ik_bb2  EFF_LA3  -24 EFF_LA4  -10  EFF_LL1  0  EFF_LL2 10 EFF_LL3 $kick_ik_bb3 EFF_LL4 $kick_ik_bb4 EFF_LL5 $kick_ik_bb5 EFF_LL6 $kick_ik_bb6 end
+settar EFF_RL1 0 EFF_RL2 10  EFF_RL3 $kick_ik_bb7  EFF_RL4 $kick_ik_bb8 EFF_RL5 $kick_ik_bb9 EFF_RL6 $kick_ik_bb10 EFF_RA1 $kick_ik_bb11 EFF_RA2  $kick_ik_bb12 EFF_RA3 24 EFF_RA4 10 end
+wait $kick_low_m5 end
+ENDSTATE
+
+#ababe 6
+STARTSTATE
+settar EFF_LA1 $kick_ik_bbb1  EFF_LA2  $kick_ik_bbb2   EFF_LA3  -24 EFF_LA4 -10  EFF_LL1  0  EFF_LL2 10 EFF_LL3 $kick_ik_bbb3  EFF_LL4 $kick_ik_bbb4  EFF_LL5 $kick_ik_bbb5  EFF_LL6 $kick_ik_bbb6  end
+settar EFF_RL1 0 EFF_RL2 10  EFF_RL3 $kick_ik_bbb7   EFF_RL4 $kick_ik_bbb8  EFF_RL5 $kick_ik_bbb9  EFF_RL6 $kick_ik_bbb10  EFF_RA1 $kick_ik_bbb11  EFF_RA2  $kick_ik_bbb12  EFF_RA3 24 EFF_RA4 10 end
+wait $kick_low_m6 end
+ENDSTATE
+
+ENDSKILL 
+
+REFLECTSKILL SKILL_KICK_LOW_LEFT_LEG SKILL_KICK_LOW_RIGHT_LEG
